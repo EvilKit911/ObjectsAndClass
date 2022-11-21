@@ -1,4 +1,4 @@
-public class Book {
+public class Book  {
     String nameBook;
     int yearPublication;
 
