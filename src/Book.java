@@ -1,12 +1,13 @@
 public class Book  {
-    String nameBook;
-    int yearPublication;
+    private String nameBook;
+    private int yearPublication;
 
+    private Author author;
 
-    public Book(String nameBook, int yearPublication) {//конструктор для имени книги и года публикации
+    public Book(String nameBook, int yearPublication, Author author) {//конструктор для имени книги и года публикации
         this.nameBook = nameBook;
         this.yearPublication = yearPublication;
-
+        this.author = author;
     }
 
     public String getNameBook() {return this.nameBook;}// гетер для имени книги
